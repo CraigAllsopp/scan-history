@@ -1,0 +1,24 @@
+[project]
+name = "scan-history"
+version = "0.1.0"
+description = "A persistent seen-ledger for repeated scans — report only what's new."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Craig Allsopp" }]
+keywords = ["scanner", "dedup", "linter", "crawler", "incremental", "ledger"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Topic :: Software Development :: Libraries",
+]
+
+[project.urls]
+Homepage = "https://github.com/CraigAllsopp/scan-history"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["scan_history"]

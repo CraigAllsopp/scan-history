@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Test / tooling
+.pytest_cache/
+.coverage
+.tox/
+
+# Virtual envs
+.venv/
+venv/
+
+# Local runtime / example artifacts
+*.jsonl
+scan_seen.json
+fires.jsonl
+health_demo.jsonl
+seen.json
