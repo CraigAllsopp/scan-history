@@ -1,5 +1,7 @@
 # scan-history
 
+[![tests](https://github.com/CraigAllsopp/scan-history/actions/workflows/tests.yml/badge.svg)](https://github.com/CraigAllsopp/scan-history/actions/workflows/tests.yml)
+
 **A persistent "seen ledger" for anything that scans the same thing repeatedly.** Report only what's *new*.
 
 Zero dependencies · MIT licensed · Python 3.10+
